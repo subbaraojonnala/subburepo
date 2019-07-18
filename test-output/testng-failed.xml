@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PhoenixAutomation]">
+  <test thread-count="5" name="TestNGClass1(failed)">
+    <classes>
+      <class name="com.tests.Customers">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="setupApplication"/>
+          <include name="customerform"/>
+        </methods>
+      </class> <!-- com.tests.Customers -->
+    </classes>
+  </test> <!-- TestNGClass1(failed) -->
+</suite> <!-- Failed suite [PhoenixAutomation] -->

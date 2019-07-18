@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PhoenixAutomation" parallel="none">
+  <test name="TestNGClass1">
+    <classes>
+      <class name="com.tests.LoginTest"/>
+    </classes>
+  </test>
+    <test name="TestNGClass2">
+        <classes>
+            <class name="com.tests.Customers"/>
+        </classes>
+    </test>
+</suite>

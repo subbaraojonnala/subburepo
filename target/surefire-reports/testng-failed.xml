@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [PhoenixAutomation]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="none" name="TestNGClass2(failed)">
+    <classes>
+      <class name="com.tests.LoginTest">
+        <methods>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- com.tests.LoginTest -->
+      <class name="com.tests.Customers">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="customerform"/>
+        </methods>
+      </class> <!-- com.tests.Customers -->
+    </classes>
+  </test> <!-- TestNGClass2(failed) -->
+</suite> <!-- Failed suite [PhoenixAutomation] -->

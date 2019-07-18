@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.002 sec <<< FAILURE! - in TestSuite
+customerform(com.tests.Customers)  Time elapsed: 0.042 sec  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+Given xpath expression "//a[@className['nav-link'][@href='/company/companies']" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KUL-3D3PXZ1', ip: '10.9.84.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 18436, moz:profile: C:\Users\kul_subbarao\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df606fab-da8e-4f00-b5d2-0f7052195384
+*** Element info: {Using=xpath, value=//a[@className['nav-link'][@href='/company/companies']}
+	at com.tests.Customers.customerform(Customers.java:21)
+
